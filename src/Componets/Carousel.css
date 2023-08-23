@@ -1,0 +1,19 @@
+.carousel-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Adjust this to your desired height */
+  }
+  
+  .slide-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%; /* Ensure the slide item takes full height of the slider */
+  }
+  
+  .slide-item img {
+    max-width: 100%; /* Ensure images don't exceed the container width */
+    max-height: 100%; /* Ensure images don't exceed the container height */
+    object-fit: contain; /* Maintain image aspect ratio */
+  }
